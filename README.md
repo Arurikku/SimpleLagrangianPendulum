@@ -187,3 +187,4 @@ So in the end we have a closed form for each $\ddot{\theta}_w$ with $w \in ⟦1,
 - It should be reminded that computers are not perfectly accurate in floating point number arithmetic, and even a triple pendulum is infamous for its extremely sensitive chaotic behaviour.\
 So while the final equation is perfectly accurate, simulating it will yield minuscule approximations which will create an unpredictable chaos very quickly.
 - For very long simulations, it might be necessary to apply modular arithmetic to bound the angles between $0$ and $2\pi$, as the angle can keep increasing until overflow.
+- This program outputs data for Desmos, and also an mp4 of the real time simulation. Note that matplotlib is incredibly slow and takes a monumental time to place points, so if outputting a video isn't necessary, it's better to remove it.
