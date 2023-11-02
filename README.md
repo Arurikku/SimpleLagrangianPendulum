@@ -2,7 +2,7 @@
 
 ## Reminders
 A double pendulum looks like this:
-![image_2023-10-31_161657269](https://github.com/Arurikku/SimpleLagrangianPendulum/assets/61802068/63ada122-09f3-4ca1-95e2-0e9b00247038)
+![image_2023-10-31_161657269](https://rotations.berkeley.edu/wp-content/uploads/2017/10/double-pendulum.png)
 
 Solving for the theta angles is simple using Lagrangian Mechanics.\
 Let $A_1$ the point represented by the mass $m_1$ and $A_2$ the point represented by the mass $m_2$.\
