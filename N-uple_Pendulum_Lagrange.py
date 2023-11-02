@@ -23,8 +23,6 @@ def getThetaDot(j, data):
 def getCartesian(t, L, data):
     return (L*np.sin(data[t]), -L*np.cos(data[t]))
 
-#TODO: Pendulum seems to gain speed? especially when it goes to the left.
-
 def pendulum_next(previous_data, masses, lengths):
     R_matrix = []
     coeff_matrix = []
