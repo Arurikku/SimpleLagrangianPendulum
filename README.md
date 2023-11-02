@@ -188,3 +188,4 @@ So in the end we have a closed form for each $\ddot{\theta}_w$ with $w \in ⟦1,
 So while the final equation is perfectly accurate, simulating it will yield minuscule approximations which will create an unpredictable chaos very quickly.
 - For very long simulations, it might be necessary to apply modular arithmetic to bound the angles between $0$ and $2\pi$, as the angle can keep increasing until overflow.
 - This program outputs data for Desmos, meaning you can simply copy the parsed data and paste it directly into Desmos. You do need to create a slider called "t" going from 1 to $P_{t1}$.length.
+- The 'live' python file does the same calculation but directly draws them onto a matplotlib graph. Note that matplotlib is exceedingly slow to compute anything.
