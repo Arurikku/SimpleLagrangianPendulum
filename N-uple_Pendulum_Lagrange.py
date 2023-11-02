@@ -66,7 +66,8 @@ g = 9.81
 
 n = len(mass_list)
 
-dt = 0.001
+#the system is extremely sensitive, so here dt would need to be even smaller to be more precise
+dt = 0.0001
 t_end = 5
 nPoints = 400
 stp = int(t_end/(dt*nPoints))
