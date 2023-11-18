@@ -89,7 +89,7 @@ while curr_time <= t_end:
     curr_time+=dt
     ctr += 1
 
-#Pack just the values of of all the thetas (not the theta_dot)
+#Pack just the values of all the thetas (not the theta_dot)
 thetas = []
 for j in range(n):
     theta_j = []
