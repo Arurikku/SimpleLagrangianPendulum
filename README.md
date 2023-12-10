@@ -181,11 +181,4 @@ R_2\\
 R_n
 \end{pmatrix}
 ```
-So in the end we have a closed form for each $\ddot{\theta}_w$ with $w \in ⟦1, n⟧$, meaning we can use the basic backward Euler method to get every angle of every mass from a time $t_1$ to $t_2$ using python.
-
-## Extra Stuff
-- It should be reminded that computers are not perfectly accurate in floating point number arithmetic, and even a triple pendulum is infamous for its extremely sensitive chaotic behaviour.\
-So while the final equation is perfectly accurate, simulating it will yield minuscule approximations which will create an unpredictable chaos very quickly.
-- For very long simulations, it might be necessary to apply modular arithmetic to bound the angles between $0$ and $2\pi$, as the angle can keep increasing until overflow.
-- This program outputs data for Desmos, meaning you can simply copy the parsed data and paste it directly into Desmos. You do need to create a slider called "t" going from 1 to $P_{t1}$.length.
-- The 'live' python file does the same calculation but directly draws them onto a matplotlib graph. Note that matplotlib is exceedingly slow to compute anything.
+So in the end we have a closed form for each $\ddot{\theta}_w$ with $w \in ⟦1, n⟧$, meaning we can use the basic backward Euler method to get every angle of every mass from a time $t_1$ to $t_2$. In this example I actually use verlet integration in Processing.
